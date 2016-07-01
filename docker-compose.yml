@@ -1,6 +1,5 @@
 sryther:
   image: sryther/www-sryther
-  ports:
-    - "9000:80"
   environment:
     - VIRTUAL_HOST=sryther.fr
+    - VIRTUAL_PORT=80
