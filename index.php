@@ -1,6 +1,6 @@
 ﻿<html>
     <head>
-        <title>Paul Rey - Sryther.fr</title>
+        <title>Paul Rey - sryther.fr</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/assets/bootflat/css/bootflat.min.css" media="screen" title="no title" charset="utf-8">
@@ -24,11 +24,15 @@
                     Paul Rey
                 </h1>
                 <h2>
-                    Etudiant & développeur
+                    DevOps @ Iterop — Docker fan, Java / Node.JS & MongoDB developper.
                 </h2>
                 <div class="row">
                     <p>
-                        <a href="https://www.linkedin.com/profile/view?id=299871512&trk=spm_pic">
+                        <a href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
+                            <img src="/static/stackoverflow.png" />
+                        </a>
+                        &nbsp;
+                        <a href="https://fr.linkedin.com/in/paul-rey">
                             <img src="/static/linkedin.png" />
                         </a>
                         &nbsp;
@@ -50,9 +54,9 @@
                     data-content="
                     <address>
                         <strong>Paul Rey</strong><br>
-                        214 avenue Raymond naves<br>
-                        Porte 104, Etage 1, Bâtiment C<br>
-                        31500 Toulouse<br>
+                        4 Impasse de Launaguet<br>
+                        A06<br>
+                        31200 Toulouse<br>
                         <abbr title='Téléphone'>Tel:</abbr> +(33) 6 10 93 34 14
                         <a href='mailto:paul.rey@sryther.fr'>paul.rey@sryther.fr</a>
                     </address>"
@@ -63,8 +67,48 @@
             </center>
             <div class="timeline">
                 <dl>
-                    <dt>Septembre 2015</dt>
+                    <dt>Octobre 2017 - Aujourd'hui</dt>
                     <dd class="pos-right clearfix">
+                        <div class="circ"></div>
+                        <div class="time">16 oct</div>
+                        <div class="events">
+                            <div class="pull-left">
+                                <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
+                            </div>
+                            <div class="events-body">
+                                <h4 class="events-heading">DevOps - Iterop (InteropSys)</h4>
+                                <p><b>Chargé d'exploitation</b> / Développeur Java</p>
+                            </div>
+                        </div>
+                    </dd>
+                    <dd class="pos-left clearfix">
+                        <div class="circ"></div>
+                        <div class="time">mai</div>
+                        <div class="events">
+                            <div class="pull-left">
+                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
+                            </div>
+                            <div class="events-body">
+                                <h4 class="events-heading">Diplôme Ingésup Toulouse</h4>
+                                <p><b>Obtention du titre d'Expert en informatique et en système d'information.</b></p>
+                            </div>
+                        </div>
+                    </dd>
+                    <dt>Septembre 2015 - Septembre 2017</dt>
+                    <dd class="pos-right clearfix">
+                        <div class="circ"></div>
+                        <div class="time"></div>
+                        <div class="events">
+                            <div class="pull-left">
+                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
+                            </div>
+                            <div class="events-body">
+                                <h4 class="events-heading">5ème année Ingésup Toulouse</h4>
+                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
+                            </div>
+                        </div>
+                    </dd>
+                    <dd class="pos-left clearfix">
                         <div class="circ"></div>
                         <div class="time">14 sept</div>
                         <div class="events">
@@ -73,7 +117,20 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Développeur logiciel en alternance - Intent Technologies</h4>
-                                <p>Intégration de nouveaux objets connectés et de réseaux IoT à la plateforme HubIntent ainsi qu'à l'industrialisation des processus d'exploitation</p>
+                                <p><b>Intégration de nouveaux objets connectés et de réseaux IoT</b> à la plateforme HubIntent ainsi qu'à l'industrialisation des processus d'exploitation</p>
+                            </div>
+                        </div>
+                    </dd>
+                    <dd class="pos-right clearfix">
+                        <div class="circ"></div>
+                        <div class="time"></div>
+                        <div class="events">
+                            <div class="pull-left">
+                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
+                            </div>
+                            <div class="events-body">
+                                <h4 class="events-heading">4ème année Ingésup Toulouse</h4>
+                                <p><b>Chef de laboratoire</b> - Préparation au titre d'Expert en informatique et en système d'information.</p>
                             </div>
                         </div>
                     </dd>
@@ -87,7 +144,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Webmaster - A quelle heure ?</h4>
-                                <p>Rédacteur et administrateur du site <a href="http://www.aquelleheure.info">www.aquelleheure.info</a></p>
+                                <p><b>Rédacteur et administrateur</b> du site <a href="http://www.aquelleheure.info">www.aquelleheure.info</a> (inactif)</p>
                             </div>
                         </div>
                     </dd>
@@ -101,7 +158,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Développeur stagiaire - InteropSys</h4>
-                                <p>Développeur d'applications web (suivi de temps de travail) et développement d'IteropSuite et de ses modules</p>
+                                <p><b>Développeur d'applications web</b> (suivi de temps de travail) et développement d'IteropSuite et de ses modules</p>
                             </div>
                         </div>
                     </dd>
@@ -115,7 +172,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">3ème année Ingésup Toulouse</h4>
-                                <p>Passage en 3ème année à l'école Ingésup, Bachelor 3, pour la préparation au Titre d'Expert en Informatique et Sytèmes d'Information.</p>
+                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
                             </div>
                         </div>
                     </dd>
@@ -129,7 +186,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Développeur stagiaire - InteropSys</h4>
-                                <p>Développeur d'applications web : refonte Argiopa.fr et création d'un gestionnaire de tâches.</p>
+                                <p><b>Développeur d'applications web</b> : refonte Argiopa.fr et création d'un gestionnaire de tâches.</p>
                             </div>
                         </div>
                     </dd>
@@ -143,7 +200,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Freelance</h4>
-                                <p>Développeur web pour plusieurs sociétés et assocations.</p>
+                                <p><b>Développeur web pour plusieurs sociétés et assocations</b> (AXL Roue, Guy Bloy Sport, Interopsys, etc.).</p>
                             </div>
                         </div>
                     </dd>
@@ -155,8 +212,8 @@
                                 <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
                             </div>
                             <div class="events-body">
-                                <h4 class="events-heading">Ingésup</h4>
-                                <p>2ème année préparatoire à Ingésup Toulouse.</p>
+                                <h4 class="events-heading">2ème année Ingésup Toulouse</h4>
+                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
                             </div>
                         </div>
                     </dd>
@@ -168,8 +225,8 @@
                                 <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
                             </div>
                             <div class="events-body">
-                                <h4 class="events-heading">Ingésup</h4>
-                                <p>1ère année préparatoire à Ingésup Toulouse.</p>
+                                <h4 class="events-heading">1ère année à Ingésup Toulouse</h4>
+                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
                             </div>
                         </div>
                     </dd>
@@ -182,7 +239,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Baccalauréat</h4>
-                                <p>Obtention du baccalauréat Scientifique spécialité Physique/Chimie.</p>
+                                <p><b>Obtention du baccalauréat Scientifique spécialité Physique/Chimie.</b></p>
                             </div>
                         </div>
                     </dd>
@@ -195,7 +252,7 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">BIA</h4>
-                                <p>Obtention du Brevet d'Initiation à l'Aviation mention assez bien.</p>
+                                <p><b>Obtention du Brevet d'Initiation à l'Aviation</b> mention assez bien.</p>
                             </div>
                         </div>
                     </dd>
@@ -209,7 +266,13 @@
                             </div>
                             <div class="events-body">
                                 <h4 class="events-heading">Naissance</h4>
-                                <p>J'ai aujourd'hui 21 ans.</p>
+                                <?php
+                                $birthDate = explode("/", "10/06/1994");
+                                $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+                                    ? ((date("Y") - $birthDate[2]) - 1)
+                                    : (date("Y") - $birthDate[2]));
+                                ?>
+				<p>J'ai aujourd'hui <?=$age?> ans.</p>
                             </div>
                         </div>
                     </dd>
