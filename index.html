@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/assets/bootflat/css/bootflat.min.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="/assets/css/style.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
         <script charset="utf-8" src="/assets/js/jquery-1.10.1.min.js"></script>
@@ -13,15 +12,13 @@
             <script charset="utf-8" src="/assets/js/html5shiv.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body style="background-color: #f1f2f6">
         <script charset="utf-8">
             $(document).ready(function() {
                 $('[data-toggle="popover"]').popover();
             });
         </script>
-
-        <div class="header">&nbsp;</div>
-        <div class="container timeline">
+        <div class="container">
             <center>
                 <h1>
                     Paul Rey
@@ -29,40 +26,29 @@
                 <h2>
                     DevOps @ Iterop — Docker fan, Java / Node.JS & MongoDB developper.
                 </h2>
-                <div class="row social">
+                <div class="row">
                     <p>
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="StackOverflow"
-                           href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
+                        <a href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
                             <img src="/static/stackoverflow.png" />
                         </a>
                         &nbsp;
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="LinkedIn"
-                           href="https://fr.linkedin.com/in/paul-rey">
+                        <a href="https://fr.linkedin.com/in/paul-rey">
                             <img src="/static/linkedin.png" />
                         </a>
                         &nbsp;
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="Github"
-                           href="https://github.com/Sryther?tab=repositories">
+                        <a href="https://github.com/Sryther?tab=repositories">
                             <img src="/static/github.png" />
+                        </a>
+                        &nbsp;
+                        <a href="https://plus.google.com/104156603726179107503">
+                            <img src="/static/google-plus.png" />
                         </a>
                     </p>
                 </div>
                 <img
                     id="me"
                     data-toggle="popover"
-                    data-trigger="hover"
+                    data-trigger="focus"
                     title="A propos de moi"
                     data-html="true"
                     data-content="
@@ -74,9 +60,10 @@
                         <abbr title='Téléphone'>Tel:</abbr> +(33) 6 10 93 34 14
                         <a href='mailto:paul.rey@sryther.fr'>paul.rey@sryther.fr</a>
                     </address>"
-                    class="logo img-rounded pointer"
+                    class="logo img-rounded"
                     alt="Logo Paul Rey - Rey Paul - Sryther"
                     src="/assets/img/me.jpg"
+                    style="cursor: pointer;"
                 />
             </center>
             <div class="timeline">
@@ -294,6 +281,6 @@
             </div>
             <br/><br/>
         </div>
-        <div class="footer-fade">&nbsp;</div>
+        <div class="footer">&nbsp;</div>
     </body>
 </html>

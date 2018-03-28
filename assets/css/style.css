@@ -1,0 +1,54 @@
+body {
+    background-color: #f1f2f6;
+    position: relative;
+}
+
+.container {
+    margin-top: -20%;
+    z-index: 500;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.footer-fade {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #f1f2f6);
+    z-index: 999;
+}
+
+.timeline {
+    margin-bottom: 3%;
+    z-index: 100;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.header {
+    background-image: url("../../static/header.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    margin-top: -9%;
+    top: 0;
+    z-index: 200;
+}
+
+.social {
+    background-color: white;
+    width: 200px;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: auto;
+    padding-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 12px;
+
+}
