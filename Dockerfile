@@ -1,5 +1,5 @@
-FROM tutum/apache-php
+FROM php:7-apache
 
 EXPOSE 80
 
-ADD . /app/
+ADD . /var/www/html

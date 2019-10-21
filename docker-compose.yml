@@ -1,15 +1,26 @@
-version: '2'
+version: '3.7'
+
 services:
   sryther:
-    build: .
-    environment:
-      - VIRTUAL_HOST=sryther.fr,www.sryther.fr
-      - VIRTUAL_PORT=80
-      - LETSENCRYPT_HOST=sryther.fr,www.sryther.fr
-      - LETSENCRYPT_EMAIL=paul.rey@sryther.fr
+    image: sryther/www
+    networks:
+      - proxy-all
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.backend.loadbalancer.stickyness=true"
+        - "traefik.backend.loadbalancer.swarm=true"
+        - "traefik.backend=www_sryther"
+        - "traefik.docker.network=proxy-all"
+        - "traefik.entrypoints=https"
+        - "traefik.frontend.passHostHeader=true"
+        - "traefik.frontend.rule=Host:sryther.fr"
+        - "traefik.port=80"
+        - "traefik.domain=sryther.fr,www.sryther.fr"
+      placement:
+        constraints:
+          - node.hostname == riv-3
 
 networks:
-  default:
-    external:
-      name: proxy
-
+  proxy-all:
+    external: true 
