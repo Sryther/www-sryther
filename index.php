@@ -68,14 +68,8 @@
                     data-content="
                     <address>
                         <strong>Paul Rey</strong><br>
-<<<<<<< HEAD
-                        4 Impasse de Launaguet<br>
-                        A06<br>
-                        31200 Toulouse<br>
-=======
-                        1061 B Chemin de Menqué<br>
+                        8 impasse Jean-Baptiste Bruyères<br>
                         31700 Daux<br>
->>>>>>> 44127c7... Update
                         <abbr title='Téléphone'>Tel:</abbr> +(33) 6 10 93 34 14
                         <a href='mailto:paul.rey@sryther.fr'>paul.rey@sryther.fr</a>
                     </address>"
