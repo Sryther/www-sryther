@@ -107,6 +107,7 @@
                             </div>
                         </div>
                     </dd>
+                    <dt>2020</dt>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
                         <div class="time">octobre</div>
@@ -115,7 +116,7 @@
                                 <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
                             </div>
                             <div class="events-body">
-                                <h4 class="events-heading">DevOps - Iterop (InteropSys)</h4>
+                                <h4 class="events-heading">DevOps - Iterop (poste actuel)</h4>
                                 <p><b>Chargé d'exploitation</b> / Développeur Java</p>
                             </div>
                         </div>
