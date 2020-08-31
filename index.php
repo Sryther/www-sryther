@@ -58,6 +58,15 @@
                            href="https://github.com/Sryther?tab=repositories">
                             <img src="/static/github.png" />
                         </a>
+                        &nbsp;
+                        <a data-toggle="popover"
+                           data-trigger="hover"
+                           data-placement="top"
+                           data-html="true"
+                           data-content="CKA"
+                           href="https://www.youracclaim.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76/public_url">
+                            <img width="32px" height="32px" src="/assets/img/kubernetes.png" />
+                        </a>
                     </p>
                 </div>
                 <img
@@ -87,7 +96,7 @@
                         <div class="time">août</div>
                         <div class="events">
                             <div class="pull-left">
-                                <img class="events-object img-rounded" width="32px" height="32px" src="/assets/img/kubernetes.png">
+                                <img class="events-object img-rounded" width="48px" height="48px" src="/assets/img/kubernetes.png">
                             </div>
                             <div class="events-body" style="display: flex;">
                                 <div>
