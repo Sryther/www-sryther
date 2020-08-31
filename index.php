@@ -12,7 +12,6 @@
         <!--[if lt IE 9]>
             <script charset="utf-8" src="/assets/js/html5shiv.js"></script>
         <![endif]-->
-        <script type="text/javascript" src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
     </head>
     <body>
         <script charset="utf-8">
@@ -103,7 +102,8 @@
                                     <h4 class="events-heading">Certified Kubernetes Administrator</h4>
                                     <p><b>Obtention de la certification</b> CKA délivré par la Linux Foundation</p>
                                 </div>
-                                <div width="100%" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="35a7a540-024d-4975-aca9-6659dd2e1c76" data-share-badge-host="https://www.youracclaim.com"></div>
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="35a7a540-024d-4975-aca9-6659dd2e1c76" data-share-badge-host="https://www.youracclaim.com"></div>
+                                <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
                             </div>
                         </div>
                     </dd>
