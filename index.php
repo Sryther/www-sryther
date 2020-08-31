@@ -12,6 +12,7 @@
         <!--[if lt IE 9]>
             <script charset="utf-8" src="/assets/js/html5shiv.js"></script>
         <![endif]-->
+        <script type="text/javascript" src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
     </head>
     <body>
         <script charset="utf-8">
@@ -27,7 +28,7 @@
                     Paul Rey
                 </h1>
                 <h2>
-                    DevOps @ Iterop — Docker fan, Kubernetes apprentice, Java / Node.JS developper.
+                    DevOps @ Iterop — Kubernetes certified, Docker fan, Java / Node.JS developper.
                 </h2>
                 <div class="row social">
                     <p>
@@ -80,10 +81,26 @@
             </center>
             <div class="timeline">
                 <dl>
-                    <dt>Octobre 2017 - Aujourd'hui</dt>
+                    <dt>Aujourd'hui</dt>
+                    <dd class="pos-left clearfix">
+                        <div class="circ"></div>
+                        <div class="time">août</div>
+                        <div class="events">
+                            <div class="pull-left">
+                                <img class="events-object img-rounded" width="32px" height="32px" src="/assets/img/kubernetes.png">
+                            </div>
+                            <div class="events-body" style="display: flex;">
+                                <div>
+                                    <h4 class="events-heading">Certified Kubernetes Administrator</h4>
+                                    <p><b>Obtention de la certification</b> CKA délivré par la Linux Foundation</p>
+                                </div>
+                                <div width="100%" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="35a7a540-024d-4975-aca9-6659dd2e1c76" data-share-badge-host="https://www.youracclaim.com"></div>
+                            </div>
+                        </div>
+                    </dd>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
-                        <div class="time">16 oct</div>
+                        <div class="time">octobre</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
@@ -107,7 +124,7 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>Septembre 2015 - Septembre 2017</dt>
+                    <dt>2017</dt>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
                         <div class="time"></div>
@@ -123,7 +140,7 @@
                     </dd>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
-                        <div class="time">14 sept</div>
+                        <div class="time">septembre</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/intent-technologies.jpg">
@@ -147,10 +164,9 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>Février 2015</dt>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
-                        <div class="time">11 fév</div>
+                        <div class="time">février</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" width="48" src="/assets/img/logo-aquelleheure.png">
@@ -161,10 +177,10 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>Octobre 2014</dt>
+                    <dt>2015</dt>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
-                        <div class="time">08 oct</div>
+                        <div class="time">octobre</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
@@ -175,10 +191,9 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>Septembre 2014</dt>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
-                        <div class="time">25 sep</div>
+                        <div class="time">septembre</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
@@ -189,10 +204,9 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>Juin 2014</dt>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
-                        <div class="time">01 juin</div>
+                        <div class="time">juin</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
@@ -203,10 +217,10 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>2012 - 2013</dt>
+                    <dt>2014</dt>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
-                        <div class="time">2013</div>
+                        <div class="time"></div>
                         <div class="events">
                             <div class="pull-left">
                                 <i class="fa fa-rocket fa-fw fa-3x events-object img-rounded"></i>
@@ -219,7 +233,7 @@
                     </dd>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
-                        <div class="time">sep 2013</div>
+                        <div class="time">septembre</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
@@ -230,9 +244,10 @@
                             </div>
                         </div>
                     </dd>
+                    <dt>2013</dt>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
-                        <div class="time">sep 2012</div>
+                        <div class="time">septembre</div>
                         <div class="events">
                             <div class="pull-left">
                                 <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
@@ -245,7 +260,7 @@
                     </dd>
                     <dd class="pos-right clearfix">
                         <div class="circ"></div>
-                        <div class="time">juil 2012</div>
+                        <div class="time">juillet</div>
                         <div class="events">
                             <div class="pull-left">
                                 <i class="fa fa-certificate fa-fw fa-3x events-object img-rounded"></i>
@@ -258,7 +273,7 @@
                     </dd>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
-                        <div class="time">avr 2012</div>
+                        <div class="time">avril</div>
                         <div class="events">
                             <div class="pull-left">
                                 <i class="fa fa-plane fa-fw fa-3x events-object img-rounded"></i>
@@ -269,7 +284,7 @@
                             </div>
                         </div>
                     </dd>
-                    <dt>1994</dt>
+                    <dt>2012</dt>
                     <dd class="pos-left clearfix">
                         <div class="circ"></div>
                         <div class="time">06 oct</div>
@@ -289,6 +304,7 @@
                             </div>
                         </div>
                     </dd>
+                    <dt>1994</dt>
                 </dl>
             </div>
             <br/><br/>
