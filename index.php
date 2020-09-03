@@ -23,69 +23,98 @@
         <div class="header">&nbsp;</div>
         <div class="container timeline">
             <center>
-                <h1>
-                    Paul Rey
-                </h1>
-                <h2>
-                    DevOps @ Iterop — Kubernetes certified, Docker fan, Java / Node.JS developper.
-                </h2>
-                <div class="row social">
-                    <p>
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="StackOverflow"
-                           href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
-                            <img src="/static/stackoverflow.png" />
-                        </a>
-                        &nbsp;
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="LinkedIn"
-                           href="https://fr.linkedin.com/in/paul-rey">
-                            <img src="/static/linkedin.png" />
-                        </a>
-                        &nbsp;
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="Github"
-                           href="https://github.com/Sryther?tab=repositories">
-                            <img src="/static/github.png" />
-                        </a>
-                        &nbsp;
-                        <a data-toggle="popover"
-                           data-trigger="hover"
-                           data-placement="top"
-                           data-html="true"
-                           data-content="CKA"
-                           href="https://www.youracclaim.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76/public_url">
-                            <img width="32px" height="32px" src="/assets/img/kubernetes.png" />
-                        </a>
-                    </p>
+                <div class="row">
+                    <h1>
+                        Paul Rey
+                    </h1>
+                    <h2>
+                        DevOps @ Iterop — Kubernetes certified, Docker fan, Java / Node.JS developper.
+                    </h2>
+                    <div class="row social">
+                        <p>
+                            <a data-toggle="popover"
+                               data-trigger="hover"
+                               data-placement="top"
+                               data-html="true"
+                               data-content="StackOverflow"
+                               href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
+                                <img src="/static/stackoverflow.png" />
+                            </a>
+                            &nbsp;
+                            <a data-toggle="popover"
+                               data-trigger="hover"
+                               data-placement="top"
+                               data-html="true"
+                               data-content="LinkedIn"
+                               href="https://fr.linkedin.com/in/paul-rey">
+                                <img src="/static/linkedin.png" />
+                            </a>
+                            &nbsp;
+                            <a data-toggle="popover"
+                               data-trigger="hover"
+                               data-placement="top"
+                               data-html="true"
+                               data-content="Github"
+                               href="https://github.com/Sryther?tab=repositories">
+                                <img src="/static/github.png" />
+                            </a>
+                            &nbsp;
+                            <a data-toggle="popover"
+                               data-trigger="hover"
+                               data-placement="top"
+                               data-html="true"
+                               data-content="CKA"
+                               href="https://www.youracclaim.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76/public_url">
+                                <img width="32px" height="32px" src="/assets/img/kubernetes.png" />
+                            </a>
+                        </p>
+                    </div>
+                    <img
+                        id="me"
+                        data-toggle="popover"
+                        data-trigger="hover"
+                        title="A propos de moi"
+                        data-html="true"
+                        data-content="
+                        <address>
+                            <strong>Paul Rey</strong><br>
+                            8 impasse Jean-Baptiste Bruyères<br>
+                            31700 Daux<br>
+                            <abbr title='Téléphone'>Tel:</abbr> +(33) 6 10 93 34 14
+                            <a href='mailto:paul.rey@sryther.fr'>paul.rey@sryther.fr</a>
+                        </address>"
+                        class="logo img-rounded pointer"
+                        alt="Logo Paul Rey - Rey Paul - Sryther"
+                        src="/assets/img/me.jpg"
+                    />
                 </div>
-                <img
-                    id="me"
-                    data-toggle="popover"
-                    data-trigger="hover"
-                    title="A propos de moi"
-                    data-html="true"
-                    data-content="
-                    <address>
-                        <strong>Paul Rey</strong><br>
-                        8 impasse Jean-Baptiste Bruyères<br>
-                        31700 Daux<br>
-                        <abbr title='Téléphone'>Tel:</abbr> +(33) 6 10 93 34 14
-                        <a href='mailto:paul.rey@sryther.fr'>paul.rey@sryther.fr</a>
-                    </address>"
-                    class="logo img-rounded pointer"
-                    alt="Logo Paul Rey - Rey Paul - Sryther"
-                    src="/assets/img/me.jpg"
-                />
+                <div class="timeline" style="margin-bottom: 0!important;">
+                    <dl></dl>
+                </div>
+                <div class="row">
+                    <a
+                        href="https://stackexchange.com/users/4635472"
+                        target="_blank"
+                        data-toggle="popover"
+                        data-trigger="hover"
+                        title="Présence StackExchance"
+                        data-html="true"
+                        data-content="
+                            <ul>
+                                <li>StackOverflow</li>
+                                <li>DevOps</li>
+                                <li>AskUbuntu</li>
+                            </ul>
+                        "
+                    >
+                        <img
+                            src="https://stackexchange.com/users/flair/4635472.png?theme=dark"
+                             width="208" height="58"
+                             alt="profile for Paul Rey on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                             title="profile for Paul Rey on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                        >
+                    </a>
+                </div>
             </center>
             <div class="timeline">
                 <dl>
