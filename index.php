@@ -1,353 +1,211 @@
-﻿<html>
-    <head>
-        <title>Paul Rey - sryther.fr</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="/assets/bootflat/css/bootflat.min.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="/assets/css/style.css" media="screen" title="no title" charset="utf-8">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+    <title>Paul Rey</title>
+    <meta charset="utf-8" />
 
-        <script charset="utf-8" src="/assets/js/jquery-1.10.1.min.js"></script>
-        <script charset="utf-8" src="/assets/js/bootstrap.min.js"></script>
-        <!--[if lt IE 9]>
-            <script charset="utf-8" src="/assets/js/html5shiv.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        <script charset="utf-8">
-            $(document).ready(function() {
-                $('[data-toggle="popover"]').popover();
-            });
-        </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <div class="header">&nbsp;</div>
-        <div class="container timeline">
-            <center>
-                <div class="row">
-                    <h1>
-                        Paul Rey
-                    </h1>
-                    <h2>
-                        DevOps @ Iterop — Kubernetes certified, Docker fan, Java / Node.JS developper.
-                    </h2>
-                    <div class="row social">
-                        <p>
-                            <a data-toggle="popover"
-                               data-trigger="hover"
-                               data-placement="top"
-                               data-html="true"
-                               data-content="StackOverflow"
-                               href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
-                                <img src="/static/stackoverflow.png" />
-                            </a>
-                            &nbsp;
-                            <a data-toggle="popover"
-                               data-trigger="hover"
-                               data-placement="top"
-                               data-html="true"
-                               data-content="LinkedIn"
-                               href="https://fr.linkedin.com/in/paul-rey">
-                                <img src="/static/linkedin.png" />
-                            </a>
-                            &nbsp;
-                            <a data-toggle="popover"
-                               data-trigger="hover"
-                               data-placement="top"
-                               data-html="true"
-                               data-content="Github"
-                               href="https://github.com/Sryther?tab=repositories">
-                                <img src="/static/github.png" />
-                            </a>
-                            &nbsp;
-                            <a data-toggle="popover"
-                               data-trigger="hover"
-                               data-placement="top"
-                               data-html="true"
-                               data-content="CKA"
-                               href="https://www.youracclaim.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76/public_url">
-                                <img width="32px" height="32px" src="/assets/img/kubernetes.png" />
-                            </a>
-                        </p>
-                    </div>
-                    <img
-                        id="me"
-                        data-toggle="popover"
-                        data-trigger="hover"
-                        title="A propos de moi"
-                        data-html="true"
-                        data-content="
-                        <address>
-                            <strong>Paul Rey</strong><br>
-                            8 impasse Jean-Baptiste Bruyères<br>
-                            31700 Daux<br>
-                            <abbr title='Téléphone'>Tel:</abbr> +(33) 6 10 93 34 14
-                            <a href='mailto:paul.rey@sryther.fr'>paul.rey@sryther.fr</a>
-                        </address>"
-                        class="logo img-rounded pointer"
-                        alt="Logo Paul Rey - Rey Paul - Sryther"
-                        src="/assets/img/me.jpg"
-                    />
-                </div>
-                <div class="timeline" style="margin-bottom: 0!important;">
-                    <dl></dl>
-                </div>
-                <div class="row">
-                    <a
-                        href="https://stackexchange.com/users/4635472"
-                        target="_blank"
-                        data-toggle="popover"
-                        data-trigger="hover"
-                        title="Présence StackExchance"
-                        data-html="true"
-                        data-content="
-                            <ul>
-                                <li>StackOverflow</li>
-                                <li>DevOps</li>
-                                <li>AskUbuntu</li>
-                            </ul>
-                        "
-                    >
-                        <img
-                            src="https://stackexchange.com/users/flair/4635472.png?theme=dark"
-                             width="208" height="58"
-                             alt="profile for Paul Rey on Stack Exchange, a network of free, community-driven Q&amp;A sites"
-                             title="profile for Paul Rey on Stack Exchange, a network of free, community-driven Q&amp;A sites"
-                        >
-                    </a>
-                </div>
-            </center>
-            <div class="timeline">
-                <dl>
-                    <dt>Aujourd'hui</dt>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">août</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" width="48px" height="48px" src="/assets/img/kubernetes.png">
-                            </div>
-                            <div class="events-body" style="display: flex;">
-                                <div>
-                                    <h4 class="events-heading">Certified Kubernetes Administrator</h4>
-                                    <p><b>Obtention de la certification</b> CKA délivré par la Linux Foundation</p>
-                                </div>
-                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="35a7a540-024d-4975-aca9-6659dd2e1c76" data-share-badge-host="https://www.youracclaim.com"></div>
-                                <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>2020</dt>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time">octobre</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">DevOps - Iterop (poste actuel)</h4>
-                                <p><b>Chargé d'exploitation</b> / Développeur Java</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">mai</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Diplôme Ingésup Toulouse</h4>
-                                <p><b>Obtention du titre d'Expert en informatique et en système d'information.</b></p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>2017</dt>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time"></div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">5ème année Ingésup Toulouse</h4>
-                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">septembre</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/intent-technologies.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Développeur logiciel en alternance - Intent Technologies</h4>
-                                <p><b>Intégration de nouveaux objets connectés et de réseaux IoT</b> à la plateforme HubIntent ainsi qu'à l'industrialisation des processus d'exploitation</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time"></div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">4ème année Ingésup Toulouse</h4>
-                                <p><b>Chef de laboratoire</b> - Préparation au titre d'Expert en informatique et en système d'information.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">février</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" width="48" src="/assets/img/logo-aquelleheure.png">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Webmaster - A quelle heure ?</h4>
-                                <p><b>Rédacteur et administrateur</b> du site <a href="http://www.aquelleheure.info">www.aquelleheure.info</a> (inactif)</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>2015</dt>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time">octobre</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Développeur stagiaire - InteropSys</h4>
-                                <p><b>Développeur d'applications web</b> (suivi de temps de travail) et développement d'IteropSuite et de ses modules</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">septembre</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">3ème année Ingésup Toulouse</h4>
-                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time">juin</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/interopsys.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Développeur stagiaire - InteropSys</h4>
-                                <p><b>Développeur d'applications web</b> : refonte Argiopa.fr et création d'un gestionnaire de tâches.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>2014</dt>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time"></div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <i class="fa fa-rocket fa-fw fa-3x events-object img-rounded"></i>
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Freelance</h4>
-                                <p><b>Développeur web pour plusieurs sociétés et assocations</b> (AXL Roue, Guy Bloy Sport, Interopsys, etc.).</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time">septembre</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">2ème année Ingésup Toulouse</h4>
-                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>2013</dt>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">septembre</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <img class="events-object img-rounded" src="/assets/img/ingesup.jpg">
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">1ère année à Ingésup Toulouse</h4>
-                                <p>Préparation au titre d'Expert en informatique et en système d'information.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-right clearfix">
-                        <div class="circ"></div>
-                        <div class="time">juillet</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <i class="fa fa-certificate fa-fw fa-3x events-object img-rounded"></i>
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Baccalauréat</h4>
-                                <p><b>Obtention du baccalauréat Scientifique spécialité Physique/Chimie.</b></p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">avril</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <i class="fa fa-plane fa-fw fa-3x events-object img-rounded"></i>
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">BIA</h4>
-                                <p><b>Obtention du Brevet d'Initiation à l'Aviation</b> mention assez bien.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>2012</dt>
-                    <dd class="pos-left clearfix">
-                        <div class="circ"></div>
-                        <div class="time">06 oct</div>
-                        <div class="events">
-                            <div class="pull-left">
-                                <i class="fa fa-birthday-cake  fa-fw fa-3x events-object img-rounded"></i>
-                            </div>
-                            <div class="events-body">
-                                <h4 class="events-heading">Naissance</h4>
-                                <?php
-                                $birthDate = explode("/", "10/06/1994");
-                                $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
-                                    ? ((date("Y") - $birthDate[2]) - 1)
-                                    : (date("Y") - $birthDate[2]));
-                                ?>
-				                <p>J'ai aujourd'hui <?=$age?> ans.</p>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt>1994</dt>
-                </dl>
+    <link rel="stylesheet" href="/assets/css/scroll/reset.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/assets/bootflat/css/bootflat.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/scroll/style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script charset="utf-8" src="/assets/js/scroll/modernizr.js"></script>
+    <!--[if lt IE 9]>
+        <script charset="utf-8" src="/assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body data-hijacking="on" data-animation="parallax">
+    <section class="cd-section visible">
+        <div>
+            <div>
+                <h1>
+                    Paul Rey
+                </h1>
             </div>
-            <br/><br/>
+            <div>
+                <img
+                    id="me"
+                    data-toggle="popover"
+                    data-trigger="hover"
+                    title="How to contact me"
+                    data-html="true"
+                    data-content="
+                    <address>
+                        31480 Cox<br>
+                        <abbr title='Phone'>Ph:</abbr> +(33) 6 10 93 34 14
+                        <a href='mailto:contact@paulrey.io'>contact@paulrey.io</a>
+                    </address>"
+                    class="logo img-rounded pointer"
+                    alt="Logo Paul Rey"
+                    src="/assets/img/me.jpg"
+                />
+            </div>
+            <div>
+                <h3>
+                    Cloud engineer, Kubernetes certified, containers enthusiast, Java / Node.JS developper.
+                </h3>
+            </div>
+            <div class="panel">
+                <p>
+                    <a data-toggle="popover"
+                       data-trigger="hover"
+                       data-placement="top"
+                       data-html="true"
+                       data-content="StackOverflow"
+                       href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
+                        <img src="/static/stackoverflow.png" />
+                    </a>
+                    &nbsp;
+                    <a data-toggle="popover"
+                       data-trigger="hover"
+                       data-placement="top"
+                       data-html="true"
+                       data-content="LinkedIn"
+                       href="https://fr.linkedin.com/in/paul-rey">
+                        <img src="/static/linkedin.png" />
+                    </a>
+                    &nbsp;
+                    <a data-toggle="popover"
+                       data-trigger="hover"
+                       data-placement="top"
+                       data-html="true"
+                       data-content="Github"
+                       href="https://github.com/Sryther?tab=repositories">
+                        <img src="/static/github.png" />
+                    </a>
+                    &nbsp;
+                    <a data-toggle="popover"
+                       data-trigger="hover"
+                       data-placement="top"
+                       data-html="true"
+                       data-content="CKA"
+                       href="https://www.youracclaim.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76/public_url">
+                        <img width="32px" height="32px" src="/assets/img/kubernetes.png" />
+                    </a>
+                </p>
+            </div>
+            <div style="margin-top: 1em;">
+                <a
+                    href="https://stackexchange.com/users/4635472"
+                    target="_blank"
+                    data-toggle="popover"
+                    data-trigger="hover"
+                    title="StackExchange activity"
+                    data-html="true"
+                    data-content="
+                        <ul>
+                            <li>StackOverflow</li>
+                            <li>DevOps</li>
+                            <li>AskUbuntu</li>
+                            <li>HomeImprovement</li>
+                        </ul>
+                    "
+                >
+                    <img
+                        src="https://stackexchange.com/users/flair/4635472.png?theme=dark"
+                         width="208" height="58"
+                         alt="Profile for Paul Rey on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                         title="Profile for Paul Rey on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+                    >
+                </a>
+            </div>
+            <div style="position: absolute; bottom: 5%;">
+                <p>
+                    Do you want to know more about me?
+
+                    <svg version="1.1" id="svg-arrow-down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 35" style="enable-background:new 0 0 22 35;" xml:space="preserve">
+                        <polygon class="arrow" style="fill:#ffffff;" points="20.58,11.584 12.004,20.158 12.004,0 9.996,0 9.996,20.158 1.42,11.584 0,13.004 11,24 22,13.004 "></polygon>
+                    </svg>
+                </p>
+            </div>
+            <div class="credits">
+                <i class="fa fa-map-marker"></i> Lerida, Pyrenees &mdash; Photo of <a target="_blank" href="https://www.pexels.com/fr-fr/@kris-christiaens-3177507?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Kris Christiaens</a>
+                from <a target="_blank" href="https://www.pexels.com/fr-fr/photo/glacier-neige-aube-paysage-4793407/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
+            </div>
         </div>
-        <div class="footer-fade">&nbsp;</div>
-    </body>
+    </section>
+
+    <section class="cd-section">
+        <div style="flex-direction: row; justify-content: space-around;">
+            <div style="padding: 5em; background-color: rgba(0, 0, 0, 0.2)">
+                <h1>Cloud engineer</h1>
+                <h3>Certified Kubernetes administrator</h3>
+                <h3>I'm working on the Kubernetes security-specialist certification (CKS).</h3>
+                <a class="left after" href="https://fr.linkedin.com/in/paul-rey" target="_blank">More information about my work on LinkedIn</p>
+            </div>
+
+            <div style="background-color: #fff; border-radius: 5px">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="35a7a540-024d-4975-aca9-6659dd2e1c76" data-share-badge-host="https://www.youracclaim.com"></div>
+                <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+            </div>
+
+            <div class="credits" style="padding: 5px; border-radius: 5px; background-color: #444;">
+                Photo of <a target="_blank" href="https://www.pexels.com/fr-fr/@kellie-churchman-371878?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Kelly Churchman</a>
+                from <a target="_blank" href="https://www.pexels.com/fr-fr/photo/photographie-de-paysage-d-un-plan-d-eau-1001682/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cd-section">
+        <div style="flex-direction: row; justify-content: space-around;">
+            <div style="text-align: left; width: 50%;">
+                <h3>Passionate about astronomy</h3>
+                <h4>I study our starry sky with my Dobsonian SkyWatcher 250/1200 telescope.</h4>
+                <a class="left after"
+                    href="#"
+                    data-toggle="popover"
+                    data-trigger="hover"
+                    title="I don't have Instagram..."
+                    data-html="true"
+                    data-content="<img width='256px' height='256px' src='/static/moon.jpg'></img>"
+                >
+                    Come and see my photos
+                </a>
+            </div>
+            <div>
+                <img src="/assets/img/planet.gif" />
+            </div>
+            <div class="credits">
+                Photo of <a target="_blank" href="https://www.pexels.com/fr-fr/@kaip?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Kai Pilger</a>
+                from <a target="_blank" href="https://www.pexels.com/fr-fr/photo/groupe-d-etoiles-1341279/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cd-section">
+        <div style="text-align: center;">
+            <div style="text-align: left; width: 50%;">
+                <h3>Definitely a hiker</h3>
+                <h4>Born in the Hautes-Pyrenees, I return to my sources frequently to see the mountains that cradled me where I can make magnificent hikes.</h4>
+            </div>
+            <div class="credits" style="padding: 5px; border-radius: 5px; background-color: #444;">
+                <i class="fa fa-map-marker"></i> Massif central, near Aurillac
+            </div>
+        </div>
+    </section>
+
+    <nav>
+		<ul class="cd-vertical-nav">
+		    <li><a href="#0" class="cd-prev inactive">Next</a></li>
+		      <li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+    </nav>
+
+
+    <script charset="utf-8" src="/assets/js/jquery.min.js"></script>
+    <script charset="utf-8" src="/assets/js/scroll/velocity.min.js"></script>
+    <script charset="utf-8" src="/assets/js/scroll/velocity.ui.min.js"></script>
+    <script charset="utf-8" src="/assets/js/bootstrap.min.js"></script>
+    <script charset="utf-8" src="/assets/js/scroll/main.js"></script>
+
+    <script charset="utf-8">
+        $(document).ready(function() {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
 </html>
