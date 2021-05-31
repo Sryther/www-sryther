@@ -38,6 +38,11 @@ section>div {
   font-size: 11px;
 }
 
+a {
+  font-weight: bold;
+  color: white;
+}
+
 a, a:visited, a:hover, a:active {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;

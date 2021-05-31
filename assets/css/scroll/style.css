@@ -23,10 +23,6 @@ body::before {
         content: "desktop";
     }
 }
-a {
-    color: #267481;
-    text-decoration: none;
-}
 #carbonads-container,
 #ui8ads-container {
     position: fixed;
