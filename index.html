@@ -120,7 +120,7 @@
         </div>
         <div style="position: absolute; bottom: 5%;">
             <p>
-                Do you want to know more about me?
+                Do you want to know more about me? Scroll down!
 
                 <svg version="1.1" id="svg-arrow-down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 35" style="enable-background:new 0 0 22 35;" xml:space="preserve">
                         <polygon class="arrow" style="fill:#ffffff;" points="20.58,11.584 12.004,20.158 12.004,0 9.996,0 9.996,20.158 1.42,11.584 0,13.004 11,24 22,13.004 "></polygon>
@@ -243,6 +243,16 @@
                         data-placement="top"
                         src="/assets/img/outscale.png"
                         alt="Outscale icon"
+                />
+                <img
+                        width="32px"
+                        height="32px"
+                        data-toggle="popover"
+                        data-trigger="hover"
+                        data-content="Google Cloud Platform"
+                        data-placement="top"
+                        src="/assets/img/gcp.png"
+                        alt="GCP icon"
                 />
             </p>
             <p>
