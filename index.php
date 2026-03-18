@@ -34,6 +34,8 @@
         <div>
             <img
                     id="me"
+                    width="12em"
+                    height="12em"
                     data-toggle="popover"
                     data-trigger="hover"
                     title="How to contact me"
@@ -71,7 +73,7 @@
                    data-html="true"
                    data-content="StackOverflow"
                    href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
-                    <img width="32px" height="32px" src="/static/stackoverflow.png" />
+                    <img width="32px" height="32px" src="/assets/img/social-networks/stackoverflow.png" />
                 </a>
                 &nbsp;
                 <a data-toggle="popover"
@@ -80,7 +82,7 @@
                    data-html="true"
                    data-content="LinkedIn"
                    href="https://fr.linkedin.com/in/paul-rey">
-                    <img width="32px" height="32px" src="/static/linkedin.webp" />
+                    <img width="32px" height="32px" src="/assets/img/social-networks/linkedin.webp" />
                 </a>
                 &nbsp;
                 <a data-toggle="popover"
@@ -89,7 +91,7 @@
                    data-html="true"
                    data-content="Github"
                    href="https://github.com/Sryther?tab=repositories">
-                    <img width="32px" height="32px" src="/static/github.png" />
+                    <img width="32px" height="32px" src="/assets/img/social-networks/github.png" />
                 </a>
                 &nbsp;
                 <a data-toggle="popover"
