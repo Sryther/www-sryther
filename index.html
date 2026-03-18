@@ -34,8 +34,7 @@
         <div>
             <img
                     id="me"
-                    width="12em"
-                    height="12em"
+                    style="width: 12em; height: 12em;"
                     data-toggle="popover"
                     data-trigger="hover"
                     title="How to contact me"
