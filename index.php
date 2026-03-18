@@ -45,8 +45,8 @@
                         <a href='mailto:contact@paulrey.io'>contact@paulrey.io</a>
                     </address>"
                     class="logo img-rounded pointer"
-                    alt="Logo Paul Rey"
-                    src="/assets/img/me.jpg"
+                    alt="Paul Rey"
+                    src="/assets/img/me.png"
             />
         </div>
         <div>
@@ -60,9 +60,18 @@
                    data-trigger="hover"
                    data-placement="top"
                    data-html="true"
+                   data-content="/mnt (my company!)"
+                   href="https://www.slash-mnt.com">
+                    <img width="32px" height="32px" src="/static/slash-mnt.png" />
+                </a>
+                &nbsp;
+                <a data-toggle="popover"
+                   data-trigger="hover"
+                   data-placement="top"
+                   data-html="true"
                    data-content="StackOverflow"
                    href="https://stackoverflow.com/users/3756843/paul-rey?tab=profile">
-                    <img src="/static/stackoverflow.png" />
+                    <img width="32px" height="32px" src="/static/stackoverflow.png" />
                 </a>
                 &nbsp;
                 <a data-toggle="popover"
@@ -71,7 +80,7 @@
                    data-html="true"
                    data-content="LinkedIn"
                    href="https://fr.linkedin.com/in/paul-rey">
-                    <img src="/static/linkedin.png" />
+                    <img width="32px" height="32px" src="/static/linkedin.webp" />
                 </a>
                 &nbsp;
                 <a data-toggle="popover"
@@ -80,16 +89,25 @@
                    data-html="true"
                    data-content="Github"
                    href="https://github.com/Sryther?tab=repositories">
-                    <img src="/static/github.png" />
+                    <img width="32px" height="32px" src="/static/github.png" />
                 </a>
                 &nbsp;
                 <a data-toggle="popover"
                    data-trigger="hover"
                    data-placement="top"
                    data-html="true"
-                   data-content="CKA"
-                   href="https://www.youracclaim.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76/public_url">
+                   data-content="CKA: Certified Kubernetes Administrator"
+                   href="https://www.credly.com/badges/35a7a540-024d-4975-aca9-6659dd2e1c76">
                     <img width="32px" height="32px" src="/assets/img/kubernetes.png" />
+                </a>
+                &nbsp;
+                <a data-toggle="popover"
+                   data-trigger="hover"
+                   data-placement="top"
+                   data-html="true"
+                   data-content="AWS Certified Solutions Architect – Associate"
+                   href="https://www.credly.com/badges/8d8913b4-c0d3-4c7a-8825-615d64245029">
+                    <img width="32px" height="32px" src="/assets/img/aws.png" />
                 </a>
             </p>
         </div>
@@ -249,10 +267,30 @@
                         height="32px"
                         data-toggle="popover"
                         data-trigger="hover"
+                        data-content="Open Telekom Cloud"
+                        data-placement="top"
+                        src="/assets/img/open-telekom-cloud.png"
+                        alt="Open Telekom Cloud icon"
+                />
+                <img
+                        width="32px"
+                        height="32px"
+                        data-toggle="popover"
+                        data-trigger="hover"
                         data-content="Google Cloud Platform"
                         data-placement="top"
                         src="/assets/img/gcp.png"
                         alt="GCP icon"
+                />
+                <img
+                        width="32px"
+                        height="32px"
+                        data-toggle="popover"
+                        data-trigger="hover"
+                        data-content="CloudFerro"
+                        data-placement="top"
+                        src="/assets/img/cloudferro.png"
+                        alt="Cloud Ferro icon"
                 />
             </p>
             <p>
